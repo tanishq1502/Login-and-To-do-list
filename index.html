@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/c3cb3f8101.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    .right{
+      background-image: url("assets/images/20390569.jpg");
+    }
+  </style>
+  <title>Login</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-8 text-center">
+        <h1 class="display-2 login">Login</h1>
+        <h2>Don't have an Account ? <a href="signup.html" class="create">Create an Account</a></h2><br><br>
+        <form action="list.html">
+          <input type="text" name="username" class="input-1" placeholder="Username or Email Id" required><br><br>
+        <input type="password" name="password" class="input-1" placeholder="Password" required><br><br>
+        <table class="table">
+          <tr>
+            <td><input type="checkbox"> <label>Remember Me ?</label></td>
+            <td><p class="text-danger"><a href="#" class="create">Forgot Password ?</a></p></td>
+          </tr>
+        </table>
+        <a href="list.html"><button class="btn submit">Login In</button></a>
+        </form>
+        <br><br><br><br>
+        <span>
+          <h4>Or login with</h4>
+          <a href="#" class="btn fa fa-facebook button1"></a>
+          <a href="#" class="btn fa fa-google button1"></a>
+        </span>
+      </div>
+      <div class="col-xl-4 text-center right">
+        <h1 class="display-1">Welcome Back</h1>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

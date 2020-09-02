@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/c3cb3f8101.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+      body{
+          overflow: auto;
+      }
+      .right{
+          background-image: url("assets/images/20390569.jpg");
+      }
+  </style>
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xl-8 text-center box">
+                <!-- <h1 class="display-1">To-Do List</h1><br> -->
+                <br><br>
+                <div>
+                    <input type="text" id="box" placeholder="Enter the Task" style="width: 30vw;" class="search" />
+                    <button class="btn submit1" style="width: 10vw;" onclick="add_item();">Add</button>
+                </div>
+                <div>
+                    <ul id="list_item"></ul>
+                </div>
+                <script src="assets/js/list.js"></script>
+            </div>
+            <div class="col-xl-4 text-center right">
+                <h1 class="display-1">To-Do List</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
